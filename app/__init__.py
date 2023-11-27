@@ -23,8 +23,9 @@ from app.views import views, MainView
 from .utils import fonts, themes
 
 
-def app_start():
+def create_app():
     app = App(
+        name='Flet Manager',
         views=views,
         view_main=MainView,
         assets_dir=abspath('assets'),

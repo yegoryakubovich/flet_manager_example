@@ -8,4 +8,4 @@ services:
       MODULE_NAME: "main"
       MAX_WORKERS: 2
     ports:
-      - "2002:80"
+      - "2001:80"

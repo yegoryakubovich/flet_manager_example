@@ -23,7 +23,6 @@ from app.utils import Fonts
 
 
 class MainView(View):
-    title = 'FME'
     route = '/'
 
     async def build(self):
@@ -58,7 +57,7 @@ class MainView(View):
                                         src=get_svg('assets/icons/pypi.svg'),
                                         width=48,
                                         height=48,
-                                        tooltip='GitHub',
+                                        tooltip='PyPI',
                                     ),
                                     url='https://pypi.org/project/flet-manager',
                                 ),
